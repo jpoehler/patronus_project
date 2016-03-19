@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patronus Group Project - Team Pastrami</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href = "./assets/styles/styles.css" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="./vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/scripts/client.js"></script>
+  </head>
+
+  <body>
+    <h1>Patronuses Group Challenge</h1>
+
+    <div class="main container">
+
+      <div class="enter-people">
+        <form id="people-form">
+          <label>Enter your name, please.</label>
+          <input type="text" name="first_name" requried placeholder="First name" />
+          <input type="text" name="last_name" requried placeholder="Last name" />
+
+          <input id="people-submit" type="submit" value="Submit" />
+        </form>
+        <div>
+          <ul class="unassigned-people"></ul>
+        </div>
+      </div>
+
+
+      <div class="enter-patronuses">
+        <form id="patronus-form">
+          <label>Patronus Name</label>
+          <input type="text" name="patronus_name" requried placeholder="Enter a patronus here" />
+
+          <input id="patronus-submit" type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="create-match">
+        <select class="select-person"></select>
+        <select class="select-patronus"></select>
+        <button class="make-match">Match</button>
+      </div>
+
+      <div class="display-match">
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
